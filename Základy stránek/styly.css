@@ -1,0 +1,125 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Navigace */
+
+nav {
+    background: rgba(0,0,0,0.8);
+}
+
+nav ul {
+    width: 1020px;
+    margin: 0px auto;
+}
+
+nav ul li {
+    width: 145px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #e2beae;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* vypnutí floatu
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Main */
+
+.firstPhoto {
+    background: black;
+}
+
+.firstPhoto img {
+    width: 600px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 150px;
+}
+
+main h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+main h2 span {
+    font-size: 60px;
+}
+
+.section1 img {
+    display: block;
+    width: 350px;
+    margin: 0px auto;
+    transform: rotate(12deg);
+    margin-top: 150px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.section2 h2 {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+/* Patička */
+
+footer {
+    background: #f5f5f7;
+    color: #86868b;
+    text-align: center;
+}
+
+/* Macbook Stránky */
+
+.secondPhoto {
+    background: black;
+}
+
+.secondPhoto img {
+    width: 600px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 150px;
+    transform: rotate(7deg);
+}
+
+/* Watch Stránky */
+
+.section1 img {
+    display: block;
+    width: 350px;
+    margin: 0px auto;
+    transform: rotate(12deg);
+    margin-top: 150px;
+}

@@ -1,0 +1,87 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+header {
+    background: #385898;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#logo img {
+    width: 30%;
+    height: 310px;
+    display: block;
+    margin: 0px auto;
+}
+
+main h2 {
+    text-align: center;
+    color: #385898;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+main p {
+    background: #385898;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+/* Formulář */
+
+form {
+    text-align: center;
+}
+
+form input {
+    margin-top: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    height: 25px;
+    width: 230px;
+    text-align: center;
+}
+
+/* Můžu zarovnat taky ve form { text-align: center; } */ 
+
+/* A také v form input { display: block; a poté margin: 0px auto; } */
+
+/* Když nepůjde ani to tak napsat do form margin 0 auto; a napsat tam šířku (width) - width: 250px; */
+
+/* když chci udělat pouze ten jeden input tak napíšu: input[type=submit] jinak řečeno pouze ten jeden, kterej se tak jmenuje */
+
+input[type=submit] {
+    background: #385898;
+    color: white;
+    font-size: 15px;
+}
+
+input[type=submit]:hover {
+    background: #ffffff;
+    color: rgb(27, 45, 128);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Patička */
+Footer p {
+    background: #385898;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-left: 14px;
+}
+

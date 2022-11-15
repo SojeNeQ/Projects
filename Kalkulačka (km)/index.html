@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulačka</title>
+</head>
+
+<body>
+
+        Vzdálenost v km
+    <input id="vzdalenost" type="number">
+    <br>
+    Spotřeba auta v L/100km
+    <input id="spotreba" type="number">
+    <br>
+    Cena paliva v Kč
+    <input id="cena-paliva" type="number">
+    <br>
+    <button onclick="calculate()">Spočítat cenu</button>
+
+    <script>
+        const vzdalenostInput = document.getElementById("vzdalenost");
+        const spotrebaInput = document.getElementById("spotreba");
+        const cenaPalivaInput = document.getElementById("cena-paliva");
+
+        function calculate() {
+        const vzdalenost = parseFloat(vzdalenostInput.value);
+        const spotreba = parseFloat(spotrebaInput.value);
+        const cenaPaliva = parseFloat(cenaPalivaInput.value);
+        const potrebnePalivo = (vzdalenost / 100) * spotreba;
+        const cena = cenaPaliva * potrebnePalivo;
+        alert(cena + " Kč");
+        }
+    </script>
+
+
+<!-- Výsledkyvka kodu -->
+
+<!-- 
+
+script - Začátek JS bloku ve stránce
+
+documet.getElementByld("identifikator")
+- naleznu prvek, jehož atribud ID se rovná dané hodnotě
+- Indetifikator pisu do uvozovek jako "text", aby se rozeznal od příkazů
+
+function nazev() {...} - kus, kodu, který můžeme sputit později.
+
+input.value - Získá hodnotu zapsanou do pole na stránce
+
+parseFold - Znamená, že můžeme přidat číselnou hodnotu
+
+
+
+ -->
+
+
+</body>
+</html>
